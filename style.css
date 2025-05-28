@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo i{
+    font-size: 25px;
+    color: green;
+}
+nav{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.nb h1{
+    color: green;
+    margin-left: 10px;
+}
+.olar{
+    display: flex;
+    gap: 25px;
+    margin-left: 25px;
+}
+.olar h3{
+    color: grey;
+}
+.til{
+    margin-left: 850px;
+}
+.pastki{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.shaxar{
+    margin-top: -48px;
+  
+}
+.shaxar i{
+    font-size: 25px;
+    color: green;
+    margin-left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: rgb(212, 211, 211);
+    text-align: center;
+    border-radius: 14px;
+}
+.qishloq{
+    margin-top: -52px;
+}
+.qishloq i{
+    font-size: 25px;
+    color: green;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: rgb(212, 211, 211);
+    text-align: center;
+    border-radius: 14px;
+}
+.grd p{
+    color: grey;
+    margin-left: 300px;
+    margin-top: -40px;
+}
+.grd h3{
+    margin-left: 300px;
+    color: green;
+}
+.grd h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.plar{
+    margin-top: -48px;
+}
+.plar p{
+    color: grey;
+    margin-left: 470px;
+}
+.xalal{
+    margin-left: 900px;
+    margin-top: -48px;
+}
+.xalal img{
+    width: 50px;
+}
+.coin{
+    margin-top: -45px;
+    display: flex;
+    gap: 15px;
+}
+.coin img{
+    width: 32px;
+    margin-left: 1000px;
+}
+.coin h1{
+    margin-top: 3px;
+}
+.kirish{
+    margin-left: 1100px;
+    margin-top: -45px;
+}
+.kirish button{
+    width: 100px;
+    height: 50px;
+    border-radius: 24px;
+    color: white;
+    border: none;
+    background: green;
+    transition: .2s ease;
+
+}
+.kirish button:hover{
+    background: rgb(3, 167, 3);
+    transition: .2s ease;
+}
+.photo{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.photo img{
+    border-radius: 14px;
+    width: 1200px;
+    height: 417px;
+}
+.btns{
+    width: 482px;
+    height: 53px;
+    background: rgb(206, 206, 206);
+    display: flex;
+    border-radius: 24px;
+    gap: 10px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.btns button{
+    width: 226px;
+    height: 42px;
+    background: white;
+    border-radius: 24px;
+    border: none;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.btns .ikki{
+    background: none;
+    color: rgb(91, 90, 90);
+}
+.uzun{
+    width: 590px;
+    height: 50px;
+    border-radius: 14px;
+    background: rgb(253, 235, 176);
+    border: 2px solid rgb(228, 196, 88) ;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.uzun p{
+    color: rgb(239, 192, 39);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.uzun .pencil{
+    margin-left: 540px;
+    margin-top: -16px;
+}
+.uzun i{
+    color: rgb(239, 192, 39);
+}
+.start{
+    display: flex;
+    gap: 30px;
+}
+.tugmalar{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.tugmalar button{
+    width: 100px;
+    height: 30px;
+    background: rgb(216, 214, 214);
+    border-radius: 24px;
+    border: none;
+    transition: .3s ease;
+
+}
+.tugmalar button:hover{
+    background: rgb(150, 181, 150);
+    transition: .3s ease;
+}
+.korzinka{
+    margin-left: 1070px;
+    margin-top: -37px;
+}
+.korzinka button{
+    width: 150px;
+    height:40px;
+    color: white;
+    background: red;
+    border: none;
+    transition: .5s ease;
+    border-radius: 24px;
+}
+.korzinka button:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+.kombo{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.cardlar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 272px;
+    height: 376px;
+    background: rgb(245, 243, 243);
+    border-radius: 14px;
+    transition: .5s;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.card img{
+    width: 270px;
+    height: 161px;
+    margin-left: 1px;
+    border-radius: 14px;
+}
+.card h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: grey;
+}
+.card h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.two{
+    width: 272px;
+    height: 376px;
+    background: rgb(245, 243, 243);
+    border-radius: 14px;
+}
+.two img{
+    width: 270px;
+    height: 161px;
+    margin-left: 1px;
+    border-radius: 14px;
+}
+.two h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.two p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: grey;
+}
+.two h2{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.two h4{
+    color: grey;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.two .chizu{
+    width: 88px;
+    height: 19px;
+    position:absolute;
+    margin-top: -16px;
+    margin-left: 5px;
+}
+.two button{
+    width: 60px;
+    border-radius: 24px;
+    height: 30px;
+    color: white;
+    border: none;
+    background: red;
+    margin-left: 130px;
+    margin-top: -55px;
+    position: absolute;
+}
+
+footer {
+    padding: 50px 60px 30px;
+    background:rgb(39,42, 44);
+    margin-top: 60px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .footer-logo img {
+    height: 55px;
+  }
+
+  .footer-logo p {
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .footer-links {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+  }
+
+  .footer-links ul {
+    list-style: none;
+  }
+
+  .footer-links li {
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #aaa;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .footer-links li:hover {
+    color: #fff;
+  }
+
+  .footer-payments {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-width: 150px;
+  }
+
+  .footer-payments img {
+    height: 40px;
+  }
+
+  .footer-socials {
+    min-width: 200px;
+  }
+
+  .footer-socials h4 {
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .footer-socials a {
+    font-size: 24px;
+    color: #aaa;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+
+  .footer-socials a:hover {
+    color: white;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+@media (max-width:430px){
+    nav{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+}
