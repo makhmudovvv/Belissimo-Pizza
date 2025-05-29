@@ -223,12 +223,17 @@ nav{
     margin-left: 40px;
 }
 .cardlar{
+    width: 90%;
+    height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
     gap: 20px;
-    flex-wrap: wrap;
+    display: grid;
+    margin-left: 35px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,440px);
 }
 .card{
     width: 272px;
@@ -399,11 +404,9 @@ footer {
     margin-top: 40px;
     font-size: 14px;
   }
-@media (max-width:430px){
-    nav{
+  @media screen and (431px) {
+    nav .box{
         flex-direction: column;
     }
-    main{
-        flex-direction: column;
-    }
-}
+    
+  }
