@@ -404,9 +404,4 @@ footer {
     margin-top: 40px;
     font-size: 14px;
   }
-  @media screen and (431px) {
-    nav .box{
-        flex-direction: column;
-    }
-    
-  }
+  
